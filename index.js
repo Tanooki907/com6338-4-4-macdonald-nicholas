@@ -44,7 +44,7 @@ console.log(answer)
 
 wordToGuess.textContent = board
 
-document.onkeyup = function(e){
+document.body.onkeyup = function(e){
   var key = e.key.toLowerCase()
   console.log(e.key)
 
